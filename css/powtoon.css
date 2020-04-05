@@ -1,0 +1,285 @@
+body {
+font-family: "Muller Bold","Muller Regular","Visby CF - Heavy","Visby CF - Extra Bold",'Raleway'; 
+color: #545E6C;
+background: #f5f5f5;
+font-size: 14px;
+padding: 30px;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-weight: 700;
+}
+a {
+color: #2d7788;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+text-decoration: underline;
+color: #1a454f;
+}
+a:focus {
+text-decoration: none;
+}
+p {
+line-height: 1.5;
+}
+.wrapper { background: white;
+width: 100%;
+max-width: 1920px;
+height: 100%;
+min-width: 1200px;
+margin: 0 auto;
+position: relative;
+}
+/*@media (min-width: 500px) {
+                    .container {
+                      max-width: 700px; } }
+                  @media (min-width: 950px) {
+                    .container {
+                      max-width: 1000px; } }
+                  @media (min-width: 1366px) {
+                    .container {
+                      max-width: 1120px; } }
+                  @media (min-width: 1920px) {
+                    .container {
+                      max-width: 1230px; } }*/
+                
+
+.aside-wrapper{
+height: 1080px;
+margin: 0;
+padding: 0;
+right: 0;
+top: 0;
+left: 0;
+/*background-color: orangered;*/
+background-image: url(../image/TOP.png);
+background-repeat: no-repeat;
+}
+
+#logo{
+margin-left:12%;
+}
+
+.pthollow{
+top:-35px;                
+}
+
+.section_newfree{
+color: #44a09b;
+font-family: "Muller Bold","Roboto", sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height:  3.1em;
+padding-top:5.4rem;
+margin-left:12%;
+}
+
+.section {
+display: block;
+}
+
+.section_secret{
+color: #000000;
+font-family: "Muller Regular","Roboto", sans-serif;
+font-size: 52px;
+font-weight: 500;
+line-height:  1.4em;
+padding-top:0;
+margin-top:-27px;
+vertical-align: baseline;
+margin-left:12%;
+          
+}
+
+span.bold {
+font-weight: bold;
+}
+
+
+
+#tuesday{
+color: #ff8141;
+font-family: "Muller Medium";
+font-size: 28px;
+font-weight: 400;
+line-height: 46.74px;
+top:600px;
+margin-left:12%;
+position: absolute;
+}
+
+.btn_element{
+background-color: #ff8141;
+width: 494px;
+height: 66px;
+border: none;
+border-radius: 33px;
+position: absolute;
+top:700px;
+margin-left:12%;
+}
+
+.info_btn{
+color: #ffffff;
+font-family: "Muller Bold","Roboto", sans-serif;
+font-size: 28px;
+line-height: 22.61px;
+text-transform: uppercase;
+}
+
+#sdown{
+color: #ffffff;
+font-family: "Muller Bold","Roboto", sans-serif;
+position: absolute;
+margin-left:49%;
+font-size: 16px;
+font-weight: 600;
+top:950px;
+line-height: 19.82px;
+text-transform: uppercase;
+}
+
+.sidebar-wrapper{
+width: 620px;
+position: absolute;
+right: 0; 
+height: 915px;  
+display: block;          
+}
+
+.training_info{
+width: 561px;
+position: absolute;
+top:80px;
+color: #3a4a62;
+font-family: "Muller Bold","Roboto", sans-serif;
+font-size: 42px;
+left: 15px;
+text-transform: uppercase;
+letter-spacing: 1.62px;               
+}
+
+ul.list_info{
+list-style-image: url(../image/strelka.png); /* Путь к изображению маркера */
+}
+
+.list{
+position: absolute;
+top:200px;
+display: block;
+width: 565px;
+height: 304px;
+color: #575656;
+font-family: "Visby CF";
+font-size: 22px;
+font-weight: 300;
+letter-spacing: 1.62px; 
+line-height: 1.5;
+}
+
+
+.list_one{
+width: 509px;
+height: 46px;
+position: absolute;
+top:590px;
+display: block;
+color: #575656;
+font-family: "Visby CF - Thin";
+font-size: 22px;
+font-weight: 400;
+}
+
+ul.list_info_one{
+list-style-image: url(../image/heart.png); /* Путь к изображению маркера */
+}
+
+
+.btn_element_twoo{
+background-color: #ff8141;
+width: 494px;
+height: 66px;
+border: none;
+border-radius: 33px;
+position: absolute;
+top:700px;
+}
+
+
+.main-wrapper{
+background-image: url(../image/2nd_sections.png);
+background-repeat: no-repeat;
+width: 1083px;
+border: 0;
+left: 0; 
+height: 915px;
+display: block;            
+}
+
+
+video {
+/* чтобы можно было внутри всё разместить через absolute */
+position: relative;
+width: 825px;
+height: 510px;
+}
+
+.video__img {
+position: absolute;
+}
+
+.video__play-icon {
+width: 121px;
+height: 121px;
+padding: 32px;
+border-radius: 50%;
+background-color: #030303;
+opacity: 0.64;
+position: absolute;
+top: 1460px;
+bottom: 0;
+left:25%;
+}
+
+.video__play-triangle {
+width: 0;
+height: 0;
+margin-left: 46px;
+border-style: solid;
+border-width: 27px 0 27px 37px;
+position: absolute;
+top: 64px;
+border-color: transparent transparent transparent #ffffff;
+}
+
+
+
+
+
+
+.footer {
+background-image: url(../image/Rectangle_19_copy.png);
+padding-top: 3px;
+padding-bottom:3px;
+display: block; 
+}
+
+.footer-text{
+color: #fefdfd;
+font-family: "Muller Bold","Roboto", sans-serif;
+font-size: 36px;
+font-weight: 400;
+text-transform: uppercase;
+text-align: center;
+vertical-align: sub;
+}
